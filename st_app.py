@@ -3,6 +3,12 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+# setting the basic configuration of the web app. This is shown in the Tab
+st.set_page_config(page_title = "Sales Prediction" 
+                    ,page_icon = ":bar_chart:" 
+                    )
+
+
 # Opening intro text
 st.write("# Predict Sales✨")
 
