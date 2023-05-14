@@ -8,9 +8,25 @@ st.set_page_config(page_title = "Sales Prediction"
                     ,page_icon = ":bar_chart:" 
                     )
 
-
 # Opening intro text
 st.write("# Predict Sales✨")
+
+
+with st.expander("About this app"):
+
+    st.write("")
+
+    st.markdown(
+        """
+
+    This is a simulated dataset for a Case Study to demonstrate the usage of Linear Regression to solve business problem. 
+    
+    The data spans 24 months and has `unit sales` along with the `price`, `advertisment spend` and `promotion spend`
+    
+    The predictions are based on a Linear Regression model . It is used to establish the relationship between the independent variables (price, promotion and Advertisment) to predict the unit sales that will be sold for each given scenario.
+    
+    """
+    )
 
 st.write("### Determine the scenario 🎛️:")
 
