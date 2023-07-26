@@ -22,7 +22,7 @@ with st.expander("About this app"):
     
     The data spans 24 months and has `unit sales` along with the `price`, `advertisment spend` and `promotion spend`
     
-    The predictions are based on a Linear Regression model . It is used to establish the relationship between the independent variables (price, promotion and Advertisment) to predict the unit sales that will be sold for each given scenario.
+    The predictions are based on a Linear Regression model . It is used to establish the relationship between the independent variables (price, promotion and advertisment) to predict the unit sales for each given scenario.
     
     """
     )
