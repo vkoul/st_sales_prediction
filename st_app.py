@@ -30,7 +30,7 @@ with st.expander("About this app"):
 st.write("### Determine the scenario 🎛️:")
 
 # Price of the product
-price = st.slider('💲 Price of the product?', min_value=3, max_value=15, value=7, step=1)
+price = st.slider('💲 Price of the product?', min_value=1, max_value=15, value=7, step=1)
 
 # Advertisment budget
 ads = st.slider('📢 What is the Adv budget?', min_value=35, max_value=65, value=50, step = 1)
