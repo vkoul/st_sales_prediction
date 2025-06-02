@@ -50,7 +50,7 @@ mktg_scenario = pd.DataFrame(dict(zip(columns, row)), index=[0])
 st.table(mktg_scenario)
 
 # Now predicting!
-if st.button(label="Click to predict unit sales"):
+if st.button(label="👆Click to predict sales"):
 
     # Load the model
     loaded_model = pickle.load(open('lm_model_prediction.sav','rb'))
